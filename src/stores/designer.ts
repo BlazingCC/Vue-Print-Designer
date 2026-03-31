@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import cloneDeep from 'lodash/cloneDeep';
 import { type DesignerState, type PrintElement, type Page, type Guide, ElementType, type CustomElementTemplate, type WatermarkSettings, type CustomElementEditSnapshot, type BrandingSettings } from '@/types';
 import { getCrudConfig, buildEndpoint } from '@/utils/crudConfig';
+import { PAPER_SIZES } from '@/constants/paper';
 
 const defaultWatermark: WatermarkSettings = {
   enabled: false,
@@ -109,7 +110,7 @@ export const useDesignerStore = defineStore('designer', {
     selectedGuideId: null,
     highlightedGuideId: null,
     highlightedEdge: null,
-    canvasSize: { width: 794, height: 1123 }, // A4 at 96 DPI (approx)
+    canvasSize: PAPER_SIZES['85mm*140mm'],
     zoom: 1,
     isDragging: false,
     showGrid: true,

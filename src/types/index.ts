@@ -25,6 +25,7 @@ export interface Size {
 }
 
 export enum ElementType {
+  BORDERTABLE = 'borderTable',
   TEXT = 'text',
   IMAGE = 'image',
   TABLE = 'table',

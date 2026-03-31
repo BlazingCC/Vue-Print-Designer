@@ -140,6 +140,7 @@ export default {
     general: 'General',
     dataCodes: 'Data & Codes',
     shapes: 'Shapes',
+    borderTable: 'Border Table',
     text: 'Text',
     image: 'Image',
     pagination: 'Pagination',

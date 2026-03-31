@@ -14,9 +14,9 @@ const { t } = useI18n();
 const store = useDesignerStore();
 const modalContainer = inject('modal-container', ref<HTMLElement | null>(null));
 
-const selectedPaper = ref<PaperSizeKey>('A4');
-const customWidth = ref(PAPER_SIZES.A4.width);
-const customHeight = ref(PAPER_SIZES.A4.height);
+const selectedPaper = ref<PaperSizeKey>('85mm*140mm');
+const customWidth = ref(PAPER_SIZES['85mm*140mm'].width);
+const customHeight = ref(PAPER_SIZES['85mm*140mm'].height);
 const showPaperSettings = ref(false);
 const showAdvancedSettings = ref(false);
 

@@ -46,6 +46,7 @@ const categories = [
   {
     title: 'sidebar.general',
     items: [
+      { type: ElementType.BORDERTABLE, label: 'sidebar.borderTable', icon: Table },
       { type: ElementType.TEXT, label: 'sidebar.text', icon: Type },
       { type: ElementType.IMAGE, label: 'sidebar.image', icon: Image },
       { type: ElementType.PAGE_NUMBER, label: 'sidebar.pagination', icon: Numbers },

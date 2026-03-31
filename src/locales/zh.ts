@@ -140,6 +140,7 @@ export default {
     general: '通用',
     dataCodes: '数据 & 条码',
     shapes: '图形',
+    borderTable: '边框表格',
     text: '文本',
     image: '图片',
     pagination: '页码',
